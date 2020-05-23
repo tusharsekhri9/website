@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 })
  const message_routes = require('./routes/message.js');
 
-mongoose.connect('mongodb+srv://me:' + 'Testing@123' + '@cluster0-fefx4.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://me:' + 'Testing@123' + '@cluster0-fefx4.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use('/message', message_routes);
 app.get("/", (req, res) => {
