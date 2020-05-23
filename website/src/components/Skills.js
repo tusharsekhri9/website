@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import Chip from '@material-ui/core/chip'
+import Chip from '@material-ui/core/Chip'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 import { createMuiTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles'
