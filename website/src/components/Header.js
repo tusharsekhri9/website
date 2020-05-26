@@ -33,7 +33,7 @@ class Header extends Component {
             <AppBar position="sticky">
                 <ButtonGroup size='large' style={{ minHeight:60, justifyContent:'center'}} color="primary" variant="contained" aria-label="outlined primary button group">
                     <Button component={Link} to="/">Home</Button>
-                    <Button component={Link} to="/detailed_look">Detailed Look</Button>
+                    <Button component={Link} to="/blog_page">Blog Page</Button>
                     <Button component={Link} to="/contact_me">Contact Me</Button>
                 </ButtonGroup>
             </AppBar>

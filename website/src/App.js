@@ -32,7 +32,6 @@ class App extends Component {
         <Header />
         <Route exact path="/" component={Home} />
         <Route path="/blog_page" component={BlogPage} />
-        <Route path="/detailed_look" component={DetailedLook} />
         <Route path="/contact_me" render={(props) => <ContactMe addMessage={this.addMessage} status={this.state.status} />} />
         <Elinks />
       </Router>       

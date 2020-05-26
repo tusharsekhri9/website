@@ -23,11 +23,11 @@ export class Elinks extends Component {
 
     render() {
         return (
-            <BottomNavigation onChange={this.handleChange} showLabels>
+            <BottomNavigation onChange={this.handleChange} style={{paddingBottom:'60px', paddingTop:'60px'}} showLabels>
                 <BottomNavigationAction label="Resume" type="button" href={resume} value="resume" icon={<FeaturedPlayListIcon fontSize="large" color="primary" />}></BottomNavigationAction>
                 <BottomNavigationAction label="Github" type="button" href="https://github.com/tusharsekhri9" value="github" icon={<GitHubIcon fontSize="large" color="primary" />}> </BottomNavigationAction>
                 <BottomNavigationAction label="LinkedIn" type="button" href="https://www.linkedin.com/in/tushar-sekhri-72065b148" value="linkedin" icon={<LinkedInIcon fontSize="large" color="primary" />}> </BottomNavigationAction>
-                <BottomNavigationAction label="Facebook" type="button" value="facebook" icon={<FacebookIcon fontSize="large" color="primary" />}> </BottomNavigationAction>
+                <BottomNavigationAction label="Facebook" type="button" href="https://www.facebook.com/tushar.sekhri.5" value="facebook" icon={<FacebookIcon fontSize="large" color="primary" />}> </BottomNavigationAction>
             </BottomNavigation>
         )
     }

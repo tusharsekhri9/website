@@ -24,9 +24,13 @@ export class BlogPage extends Component {
     }
     render() {
         return (
-            <Box style={{marginLeft:'40px', marginTop:'40px', justifyContent:'center', display:'flex',}}>
-                <Typography variant='p'>My First Blog coming soon</Typography><br></br>
+            <Box>
+            <Box style={{marginTop:'40px', justifyContent:'center', display:'flex',}}>
+                <Typography variant='p'>My First Blog coming soon</Typography>
+            </Box>
+            <Box style={{marginTop:'150px', marginBottom:'150px', justifyContent:'center', display:'flex',}}>
                 <CircularProgress />
+            </Box>
             </Box>
         )
     }
